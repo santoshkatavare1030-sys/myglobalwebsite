@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption & Care</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        /* Navigation Bar */
+        header {
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff7e5f;
+        }
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        .nav-links li {
+            margin-left: 30px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #555;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        .nav-links a:hover {
+            color: #ff7e5f;
+        }
+        /* Sections */
+        section {
+            padding: 80px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 36px;
+            color: #ff7e5f;
+        }
+        /* Home Section */
+        #home {
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://unsplash.com') no-repeat center center/cover;
+            color: white;
+            padding: 150px 20px;
+        }
+        #home h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        #home p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .cta-btn {
+            background-color: #ff7e5f;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        .cta-btn:hover {
+            background-color: #feb47b;
+        }
+        /* About Section */
+        #about {
+            background-color: white;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        .about-text {
+            flex: 1;
+        }
+        .about-image {
+            flex: 1;
+            background-color: #ddd;
+            height: 350px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            font-size: 18px;
+        }
+        /* Contact Section */
+        #contact {
+            text-align: center;
+            background-color: #ffffff;
+        }
+        .contact-details {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">Paws & Care</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Company</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Find Your Furry Best Friend</h1>
+        <p>We provide loving homes for pets and expert care services to keep them healthy.</p>
+        <a href="#contact" class="cta-btn">Adopt Today</a>
+    </section>
+
+    <!-- About Company Section -->
+    <section id="about">
+        <div class="about-text">
+            <h2>About Company</h2>
+            <p>Welcome to <strong>Paws & Care</strong>. We are dedicated to rescuing, rehabilitating, and rehoming pets in need. Our mission is to ensure every animal gets the loving family and the quality care they deserve. We also offer community education, health checkups, and adoption counseling.</p>
+        </div>
+        <div class="about-image">
+            <!-- Replace the text below with an actual image link later -->
+            [Company Photo Here: Upload your pet/staff photo]
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p class="contact-details">📍 123 Animal Rescue Lane, Pet City</p>
+        <p class="contact-details">📞 +1 (555) 123-4567</p>
+        <p class="contact-details">✉️ hello@pawsandcare.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Paws & Care. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
